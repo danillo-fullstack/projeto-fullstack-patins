@@ -17,11 +17,13 @@ section.hero {
   }
 
   & h1 span:nth-child(1),
-  & h1 span:nth-child(4) {
+  & h1 span:nth-child(4),
+  & h1 span:nth-child(7) {
     color: var(--snitap-sky-mid);
   }
 
-  & h1 span:nth-child(2) {
+  & h1 span:nth-child(2),
+  & h1 span:nth-child(5) {
     color: var(--snitap-joy-mid);
   }
 

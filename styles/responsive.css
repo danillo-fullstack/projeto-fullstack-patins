@@ -1,24 +1,38 @@
 @media (width <= 66.25rem) {
     section.hero {
         flex-direction: column-reverse;
+    
 
-        & h1 {
-            width: 19.5rem;
-            font-size: 2rem;
-        }
-
-         h1 div {
+        & h1 div span {
             display: inline-block;
             overflow: hidden;
-            height: 2.5rem;
+            height: 5rem;
             width: min-content;
             vertical-align: bottom;
+        }
+
+        & .buttons {
+            margin-top: 1rem;
         }
     }
 }
 
 @media (width <= 36.25rem) {
     section.hero {
+        & h1 {
+            font-size: 2rem;
+        }
+
+        & h1 div {
+            height: 2.5rem;
+        }
+
+        & h1 div span {
+            display: inline-block;
+            height: 2.5rem;
+
+        }
+
         & .buttons {
             flex-direction: column-reverse;
         }
