@@ -18,7 +18,21 @@
 }
 
 @media (width <= 36.25rem) {
-    .hero .buttons {
-        flex-direction: column-reverse;
+    section.hero {
+        & .buttons {
+            flex-direction: column-reverse;
+        }
+
+        & > div:nth-child(2) {
+            display: block;
+            width: 100%;
+            max-width: 19.5rem;
+            height: 19.5rem;
+        }
+
+        & img[src*= 'stars-1'] {
+            top: 20%;
+            z-index: 0;
+        }
     }
 }
