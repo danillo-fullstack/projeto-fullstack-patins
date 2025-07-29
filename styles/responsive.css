@@ -20,17 +20,11 @@
 @media (width <= 36.25rem) {
     section.hero {
         & h1 {
-            font-size: 2rem;
+            font-size: 2.3rem;
         }
 
         & h1 div {
-            height: 2.5rem;
-        }
-
-        & h1 div span {
-            display: inline-block;
-            height: 2.5rem;
-
+            height: 2.85rem;
         }
 
         & .buttons {
