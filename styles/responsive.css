@@ -1,7 +1,13 @@
 @media (width <= 66.25rem) {
+    :root {
+        --text-sm: 0.875rem;
+        --text-base: 1rem;
+        --text-lg: 2.4rem;
+        --text-xl: 4rem;
+    }
+
     section.hero {
         flex-direction: column-reverse;
-    
 
         & h1 div span {
             display: inline-block;
@@ -13,6 +19,16 @@
 
         & .buttons {
             margin-top: 1rem;
+        }
+    }
+    
+    section.gallery  {
+        h2 {
+            font-size: var(--text-lg);
+        }
+        & .content {
+            display: flex;
+            flex-direction: column;
         }
     }
 }
@@ -42,5 +58,6 @@
             top: 20%;
             z-index: 0;
         }
+        
     }
 }
